@@ -54,6 +54,14 @@ public class DemoController {
     }
     @DeleteMapping  (" / ProductoEstudiante")
     public String mostrandoProductoEstudiante (){
-        return " el nombre del estudiante ";
+
+        Estudiante estudiante = new Estudiante();
+        Estudiante estudiante1 = new Estudiante();
+        Estudiante estudiante2 = new Estudiante();
+        Producto producto1 = new Producto();
+        Producto proveedor = new Producto();
+        Producto ano =new Producto();
+        return " el nombre del estudiante que compro"+ " " + producto1.tipo + " " + "es" + estudiante.nombre+" "+ estudiante1.ApPaterno
+                + " " + estudiante2 +" " + " del proveedor" + proveedor.proveedor + " " + " el año" + ano.ano;
     }
 }
