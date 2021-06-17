@@ -41,6 +41,7 @@ public class DemoController {
         Estudiante estudiante1 = new Estudiante();
         Estudiante estudiante2 = new Estudiante();
         Estudiante estudiante3 = new Estudiante();
+        Estudiante estudiante4 = new Estudiante();
 
         return estudiante.nombre +" "+ estudiante1.ApPaterno + " " + estudiante2.ApMaterno +" "+ " La edad es:" + " "+estudiante3.edad;
     }
