@@ -52,7 +52,7 @@ public class DemoController {
         Producto ano =new Producto();
         return producto1.tipo +" "+ proveedor.proveedor +" "+"Año de elaboracion:" + ano.ano;
     }
-    @DeleteMapping  (" / ProductoEstudiante")
+    @DeleteMapping  ("/productoEstudiante")
     public String mostrandoProductoEstudiante (){
 
         Estudiante estudiante = new Estudiante();
@@ -61,7 +61,7 @@ public class DemoController {
         Producto producto1 = new Producto();
         Producto proveedor = new Producto();
         Producto ano =new Producto();
-        return " el nombre del estudiante que compro"+ " " + producto1.tipo + " " + "es" + estudiante.nombre+" "+ estudiante1.ApPaterno
-                + " " + estudiante2 +" " + " del proveedor" + proveedor.proveedor + " " + " el año" + ano.ano;
+        return " el nombre del estudiante que compro"+ " " + producto1.tipo + " " + "es"+" " + estudiante.nombre+" "+ estudiante1.ApPaterno
+                + " " + estudiante2.ApMaterno +" " + " del proveedor"+" " + proveedor.proveedor + " " + " el año" + " "+ ano.ano;
     }
 }
